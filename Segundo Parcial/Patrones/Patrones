@@ -1,0 +1,56 @@
+cd C:\Users\USER\Documents\NetBeansProjects\UAEH; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=Patrones -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+-------------------------< com.mycompany:UAEH >-------------------------
+Building UAEH 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ UAEH ---
+skip non existing resourceDirectory C:\Users\USER\Documents\NetBeansProjects\UAEH\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ UAEH ---
+Recompiling the module because of changed source code.
+Compiling 21 source files with javac [debug release 25] to target\classes
+
+--- exec:3.5.1:exec (default-cli) @ UAEH ---
+Ingresa el n�mero de l�neas (n): 9
+
+--- Patr�n 1 (Cuadrado) ---
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+* * * * * * * * * 
+
+--- Patr�n 2 (Pir�mide Invertida) ---
+*****************
+ ***************
+  *************
+   ***********
+    *********
+     *******
+      *****
+       ***
+        *
+
+--- Patr�n 3 (Pir�mide Normal) ---
+        *
+       ***
+      *****
+     *******
+    *********
+   ***********
+  *************
+ ***************
+*****************
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:48 min
+Finished at: 2026-09-10T08:03:01-06:00
+------------------------------------------------------------------------
