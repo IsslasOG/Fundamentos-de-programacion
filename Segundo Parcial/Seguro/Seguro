@@ -1,0 +1,28 @@
+cd C:\Users\USER\Documents\NetBeansProjects\UAEH; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.uaeh.SeguroVehiculo -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+-------------------------< com.mycompany:UAEH >-------------------------
+Building UAEH 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ UAEH ---
+skip non existing resourceDirectory C:\Users\USER\Documents\NetBeansProjects\UAEH\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ UAEH ---
+Recompiling the module because of changed source code.
+Compiling 23 source files with javac [debug release 25] to target\classes
+
+--- exec:3.5.1:exec (default-cli) @ UAEH ---
+Ingrese el valor del vehiculo: 1000
+Ingrese la edad del conductor (18-100): 42
+Ingrese el numero de accidentes: 2
+�Tiene sistema de seguridad adicional? (true/false): true
+El costo final del seguro es: $44.08
+�Desea repetir? (1: Si / 0: No): 0
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  24.686 s
+Finished at: 2026-10-06T19:50:36-06:00
+------------------------------------------------------------------------
