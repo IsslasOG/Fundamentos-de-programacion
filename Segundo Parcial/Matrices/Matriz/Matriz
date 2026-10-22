@@ -1,0 +1,125 @@
+cd C:\Users\USER\Documents\NetBeansProjects\UAEH; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.uaeh.MatrizMenu -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.5.1:exec"
+Scanning for projects...
+
+-------------------------< com.mycompany:UAEH >-------------------------
+Building UAEH 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ UAEH ---
+skip non existing resourceDirectory C:\Users\USER\Documents\NetBeansProjects\UAEH\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ UAEH ---
+Recompiling the module because of changed source code.
+Compiling 27 source files with javac [debug release 25] to target\classes
+
+--- exec:3.5.1:exec (default-cli) @ UAEH ---
+
+--- MENU MATRIZ 4x4 ---
+1. Rellenar matriz (Valores no repetidos)
+2. Suma de cada fila y columna
+3. Suma de una fila especifica
+4. Suma de una columna especifica
+5. Mayor y menor elemento con su posicion
+6. Contar pares
+7. Contar impares
+8. Generar matriz al cuadrado
+9. Suma diagonal principal
+10. Suma diagonal inversa
+11. Media de todos los valores
+12. Salir del menu
+Elija una opcion: 1
+Ingrese valor [0][0]: 2
+Ingrese valor [0][1]: 3
+Ingrese valor [0][2]: 4
+Ingrese valor [0][3]: 5
+Ingrese valor [1][0]: 6
+Ingrese valor [1][1]: 7
+Ingrese valor [1][2]: 9
+Ingrese valor [1][3]: 2
+El numero ya existe en la matriz. Ingrese otro.
+Ingrese valor [1][3]: 1
+Ingrese valor [2][0]: 5
+El numero ya existe en la matriz. Ingrese otro.
+Ingrese valor [2][0]: 32
+Ingrese valor [2][1]: 21
+Ingrese valor [2][2]: 53
+Ingrese valor [2][3]: 12
+Ingrese valor [3][0]: 53
+El numero ya existe en la matriz. Ingrese otro.
+Ingrese valor [3][0]: 32
+El numero ya existe en la matriz. Ingrese otro.
+Ingrese valor [3][0]: 56
+Ingrese valor [3][1]: 24
+Ingrese valor [3][2]: 15
+Ingrese valor [3][3]: 35
+Matriz rellenada exitosamente.
+
+--- MENU MATRIZ 4x4 ---
+1. Rellenar matriz (Valores no repetidos)
+2. Suma de cada fila y columna
+3. Suma de una fila especifica
+4. Suma de una columna especifica
+5. Mayor y menor elemento con su posicion
+6. Contar pares
+7. Contar impares
+8. Generar matriz al cuadrado
+9. Suma diagonal principal
+10. Suma diagonal inversa
+11. Media de todos los valores
+12. Salir del menu
+Elija una opcion: 2
+
+--- MATRIZ ORIGINAL ---
+2	3	4	5	
+6	7	9	1	
+32	21	53	12	
+56	24	15	35	
+Suma Fila 0: 14
+Suma Fila 1: 23
+Suma Fila 2: 118
+Suma Fila 3: 130
+Suma Columna 0: 96
+Suma Columna 1: 55
+Suma Columna 2: 81
+Suma Columna 3: 53
+
+--- MENU MATRIZ 4x4 ---
+1. Rellenar matriz (Valores no repetidos)
+2. Suma de cada fila y columna
+3. Suma de una fila especifica
+4. Suma de una columna especifica
+5. Mayor y menor elemento con su posicion
+6. Contar pares
+7. Contar impares
+8. Generar matriz al cuadrado
+9. Suma diagonal principal
+10. Suma diagonal inversa
+11. Media de todos los valores
+12. Salir del menu
+Elija una opcion: 3
+
+--- MATRIZ ORIGINAL ---
+2	3	4	5	
+6	7	9	1	
+32	21	53	12	
+56	24	15	35	
+Ingrese la fila (0-3): 3
+Suma Fila 3: 130
+
+--- MENU MATRIZ 4x4 ---
+1. Rellenar matriz (Valores no repetidos)
+2. Suma de cada fila y columna
+3. Suma de una fila especifica
+4. Suma de una columna especifica
+5. Mayor y menor elemento con su posicion
+6. Contar pares
+7. Contar impares
+8. Generar matriz al cuadrado
+9. Suma diagonal principal
+10. Suma diagonal inversa
+11. Media de todos los valores
+12. Salir del menu
+Elija una opcion: 12
+
+�Desea reiniciar todo el programa? (1: Si / 0: No): 
